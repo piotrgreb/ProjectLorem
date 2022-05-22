@@ -1,0 +1,163 @@
+.form {
+  width: 35vw;
+  height: 55vh;
+  -webkit-box-shadow: 0 0 99px #ff4359;
+          box-shadow: 0 0 99px #ff4359;
+  position: absolute;
+  margin-left: calc(50vw - 35vw / 2);
+  padding: 20px;
+  border-radius: 21px;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 25vh;
+  z-index: 2;
+  background-color: #fff;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.form .form__close {
+  position: absolute;
+  background: none;
+  border: 0;
+  right: 15px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.form .form__close svg path {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.form :hover svg path {
+  fill: #ff4359;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.form .form__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 260px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form .form__container label {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 0px 10px 0px;
+  letter-spacing: 4.8px;
+}
+
+.form .form__container label span {
+  color: #ff4359;
+}
+
+.form .form__container input {
+  height: 41px;
+  border-radius: 6px;
+  color: #afafaf;
+  border: 1px solid #afafaf;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 4.8px;
+}
+
+.form .form__container ::-webkit-input-placeholder {
+  padding-left: 20px;
+}
+
+.form .form__container :-ms-input-placeholder {
+  padding-left: 20px;
+}
+
+.form .form__container ::-ms-input-placeholder {
+  padding-left: 20px;
+}
+
+.form .form__container ::placeholder {
+  padding-left: 20px;
+}
+
+.form .form__container .form_field {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.form .form__container .form_field span {
+  color: #fc4359;
+}
+
+.form .form__container .form__info {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #fc4359;
+  text-align: center;
+  opacity: 0;
+}
+
+.form .form__container .form__alert {
+  opacity: 1;
+}
+
+.form .form__container .form__regulamin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form .form__container .form__regulamin input {
+  border: 1px solid #afafaf;
+  border-radius: 6px;
+}
+
+.form .form__container .form__regulamin p {
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+
+.form .form__container .form__send {
+  border-radius: 6px;
+  background-color: #ff4359;
+  height: 41px;
+  border: 0;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 4.8px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.form .form__container .form__send:hover {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  letter-spacing: 9.8px;
+}
+
+.form-active {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 10;
+}
+/*# sourceMappingURL=form.css.map */

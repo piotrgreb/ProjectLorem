@@ -1,0 +1,133 @@
+.gallery {
+  margin-top: 20vh;
+}
+
+.gallery .gallery__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  padding: 20px 0px;
+  font-weight: 900;
+  letter-spacing: 19.2px;
+}
+
+.gallery .gallery__line {
+  border-bottom: 2px solid red;
+  width: 22vw;
+  margin-left: calc(50vw - 11vw);
+  margin-bottom: 50px;
+}
+
+.gallery .gallery__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gallery .gallery__slider .gallery__img-prev img {
+  width: 8vw;
+  height: 40vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
+  opacity: 0.2;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.gallery .gallery__slider .gallery__img-next img {
+  width: 8vw;
+  height: 40vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left;
+  opacity: 0.2;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.gallery .gallery__slider .inactive-img {
+  opacity: 0 !important;
+}
+
+.gallery .gallery__slider .gallery__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gallery .gallery__slider .gallery__main .gallery__img {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.gallery .gallery__slider .gallery__main .gallery__img img {
+  height: 40vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 60vw;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.gallery .gallery__slider .gallery__arrow--left,
+.gallery .gallery__slider .gallery__arrow--right {
+  margin: 10px;
+  width: 28px;
+  height: 48px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.gallery .gallery__slider .disable {
+  pointer-events: none;
+}
+
+.gallery .gallery__slider .disable svg path {
+  fill: #afafaf;
+}
+
+.dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dots span {
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  background-color: #afafaf;
+  margin: 5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.dots .active {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  background-color: #fc4359;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  pointer-events: none;
+}
+/*# sourceMappingURL=gallery.css.map */

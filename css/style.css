@@ -1,0 +1,21 @@
+@import url(header.css);
+@import url(about.css);
+@import url(gallery.css);
+@import url(form.css);
+@import url(mobile.css);
+html {
+  scroll-behavior: smooth;
+}
+
+html * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html footer {
+  background-color: #afafaf;
+  height: 208px;
+}
+/*# sourceMappingURL=style.css.map */

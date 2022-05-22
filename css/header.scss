@@ -1,0 +1,65 @@
+header {
+    background-image: url(../assets/reinhart-julian-WxM465oM4j4-unsplash.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 4px solid #ff4359;
+      background-color: #fff;
+      padding: 26px 5vw;
+      position: fixed;
+      width: 100%;
+      z-index: 10;
+      .navbar__nav {
+        display: flex;
+        align-items: center;
+        .navbar__menu {
+          padding-left: 2vw;
+          .navbar__item {
+            display: inline-block;
+            a {
+              padding: 5px 1.5vw;
+              font-family: "Montserrat", sans-serif;
+              text-decoration: none;
+              color: #afafaf;
+              text-transform: uppercase;
+              font-size: 14px;
+              letter-spacing: 4.8px;
+              transition: 0.3s ease-in-out;
+              cursor: pointer;
+            }
+            :hover {
+              border-radius: 21px;
+              transition: 0.3s ease-in-out;
+              box-shadow: 0 5px 10px 0 #fc435933;
+            }
+          }
+        }
+      }
+      .navbar__social {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        svg {
+          width: 40px;
+          height: 28px;
+          margin: 5px;
+
+          path {
+            transition: 0.3s ease-in-out;
+          }
+        }
+        :hover {
+          transition: 0.3 ease-in-out;
+
+          path {
+            fill: #fc4359;
+            transition: 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }

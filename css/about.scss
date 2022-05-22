@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    margin-top: 233px;
+    .about__line {
+      border-bottom: 2px solid red;
+    }
+    .about__img {
+      height: 613px;
+      img {
+        width: 56.5vw;
+        height: 613px;
+        object-fit: cover;
+        object-position: bottom;
+      }
+    }
+    .about__content {
+      padding: 0 5vw;
+      .about__title {
+        letter-spacing: 19.2px;
+        text-transform: uppercase;
+        font-family: "Montserrat", sans-serif;
+        font-size: 48px;
+        padding: 20px 0px;
+        font-weight: 900;
+      }
+      .about__text {
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        margin-top: 20px;
+      }
+    }
+  }

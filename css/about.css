@@ -1,0 +1,43 @@
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 233px;
+}
+
+.about .about__line {
+  border-bottom: 2px solid red;
+}
+
+.about .about__img {
+  height: 613px;
+}
+
+.about .about__img img {
+  width: 56.5vw;
+  height: 613px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.about .about__content {
+  padding: 0 5vw;
+}
+
+.about .about__content .about__title {
+  letter-spacing: 19.2px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  padding: 20px 0px;
+  font-weight: 900;
+}
+
+.about .about__content .about__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=about.css.map */

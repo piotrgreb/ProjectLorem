@@ -1,0 +1,121 @@
+.form {
+    width: 35vw;
+    height: 55vh;
+    box-shadow: 0 0 99px #ff4359;
+    position: absolute;
+    margin-left: calc(50vw - 35vw / 2);
+
+    padding: 20px;
+    border-radius: 21px;
+    display: none;
+    justify-content: center;
+    position: fixed;
+    top: 25vh;
+    z-index: 2;
+    background-color: #fff;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+
+    .form__close {
+      position: absolute;
+      background: none;
+      border: 0;
+      right: 15px;
+      top: 10px;
+      cursor: pointer;
+      svg {
+        path {
+          transition: 0.3s ease-in-out;
+        }
+      }
+    }
+    :hover {
+      svg {
+        path {
+          fill: #ff4359;
+          transition: 0.3s ease-in-out;
+        }
+      }
+    }
+    .form__container {
+      display: flex;
+      flex-direction: column;
+      width: 260px;
+      align-content: center;
+      justify-content: center;
+      label {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: "Montserrat", sans-serif;
+        padding: 20px 0px 10px 0px;
+        letter-spacing: 4.8px;
+        span {
+          color: #ff4359;
+        }
+      }
+      input {
+        height: 41px;
+        border-radius: 6px;
+        color: #afafaf;
+        border: 1px solid #afafaf;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 4.8px;
+      }
+      ::placeholder {
+        padding-left: 20px;
+      }
+    
+      .form_field {
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        margin-top: 10px;
+        span {
+          color: #fc4359;
+        }
+      }
+      .form__info {
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        margin-top: 10px;
+        color: #fc4359;
+        text-align: center;
+        opacity: 0;
+      }
+      .form__alert {
+        opacity: 1;
+      }
+      .form__regulamin {
+        display: flex;
+        input {
+          border: 1px solid #afafaf;
+          border-radius: 6px;
+        }
+        p {
+          margin: 10px;
+          font-family: "Montserrat", sans-serif;
+          font-size: 10px;
+        }
+      }
+      .form__send {
+        border-radius: 6px;
+        background-color: #ff4359;
+        height: 41px;
+        border: 0;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 4.8px;
+        transition: 0.2s ease-in-out;
+      }
+      .form__send:hover {
+        transition: 0.2s ease-in-out;
+        letter-spacing: 9.8px;
+      }
+    }
+  }
+  .form-active {
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    z-index: 10;
+  }
+

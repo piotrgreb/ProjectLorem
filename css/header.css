@@ -1,0 +1,92 @@
+header {
+  background-image: url(../assets/reinhart-julian-WxM465oM4j4-unsplash.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+}
+
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 4px solid #ff4359;
+  background-color: #fff;
+  padding: 26px 5vw;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+header .navbar .navbar__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .navbar__nav .navbar__menu {
+  padding-left: 2vw;
+}
+
+header .navbar .navbar__nav .navbar__menu .navbar__item {
+  display: inline-block;
+}
+
+header .navbar .navbar__nav .navbar__menu .navbar__item a {
+  padding: 5px 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #afafaf;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 4.8px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+header .navbar .navbar__nav .navbar__menu .navbar__item :hover {
+  border-radius: 21px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-box-shadow: 0 5px 10px 0 #fc435933;
+          box-shadow: 0 5px 10px 0 #fc435933;
+}
+
+header .navbar .navbar__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+header .navbar .navbar__social svg {
+  width: 40px;
+  height: 28px;
+  margin: 5px;
+}
+
+header .navbar .navbar__social svg path {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+header .navbar .navbar__social :hover {
+  -webkit-transition: 0.3 ease-in-out;
+  transition: 0.3 ease-in-out;
+}
+
+header .navbar .navbar__social :hover path {
+  fill: #fc4359;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+/*# sourceMappingURL=header.css.map */
